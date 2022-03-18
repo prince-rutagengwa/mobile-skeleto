@@ -3,6 +3,7 @@
   font-weight: 700;
   color: #fff;
   margin: 0;
+  text-decoration: none;
 }
 
 .bar1,
@@ -12,6 +13,7 @@
   height: 2px;
   background-color: #fff;
   margin: 4px 0;
+  list-style-type: none;
 }
 
 .head {
@@ -36,7 +38,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 0;
+  margin: 120px 0 0 0;
 }
 
 .basic-info {
@@ -60,7 +62,7 @@
 /*stylelint-disable*/
 .info {
   width: 327px;
-  height: 123px;
+  height: 50px;
   left: 24px;
   top: 295px;
   font-family:'Poppins';
@@ -72,32 +74,53 @@
   flex: none;
   order: 2;
   flex-grow: 0;
-  margin: 12px 0;
+  margin: 12px 0 0 0;
 }
 
 .icons {
   display: flex;
-  align-content: flex-end;
+  justify-content:left;
+  justify-items:space-between;
   padding: 100px 0;
-  width: 375px;
-  height: 59px;
-  left: 0;
-  top: 90px;
+  margin: 0 12px 24px 0;
   background: #1C1a19;
   background: transparent;
+  list-style-type: none;
+  top: 0%;
 }
 
 body {
-  display: flex;
-  align-content: center;
-  flex-direction: column;
-  padding: 12px 24px;
-  width: 375px;
-  height: 590px;
-  left: 0;
-  top: 92px;
   background: #1c1a19;
+  height: 100vh;
+  /*background-image: url();
+  background-repeat: no-repeat;
+  background-position: 88% 99%;*/
+}
+
+.background-image {
+  display: flex;
   background-image: url(Microverse-Student-Project-1/illustration-header-mobile.png);
   background-repeat: no-repeat;
-  background-position: 88% 99%;
+  background-position: 100% 80%;
+
+}
+
+.github {
+  margin: 0 12px;
+}
+
+.linkedin {
+  margin: 0 12px;
+}
+
+.angelist {
+  margin: 0 12px;
+}
+
+.medium {
+  margin: 0 12px;
+}
+
+.twitter {
+  margin: 0 12px;
 }

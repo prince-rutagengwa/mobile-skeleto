@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# mobile-skeleton
+# mobile-UI-project
 
 this project works on a mobile skeleton version using a chosen template from figma.
 
