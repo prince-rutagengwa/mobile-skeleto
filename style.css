@@ -26,13 +26,13 @@
   height: 124px;
   left: 24px;
   top: 120px;
-  font-family:'Crete Round';
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
-  color: #FF6B00;
+  color: #ff6b00;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -43,15 +43,15 @@
   width: 327px;
   height: 27px;
   left: 24px;
-  top: 256px; 
-  font-family: 'Roboto';
+  top: 256px;
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
   display: flex;
   align-items: center;
-  color: #FFF5E1;
+  color: #fff5e1;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -99,5 +99,5 @@ body {
   background: #1c1a19;
   background-image: url(Microverse-Student-Project-1/illustration-header-mobile.png);
   background-repeat: no-repeat;
-  background-position: 32.5% 90%;
+  background-position: 88% 99%;
 }
