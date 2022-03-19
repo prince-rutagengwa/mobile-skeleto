@@ -2,7 +2,7 @@
   font-size: 18px;
   font-weight: 700;
   color: #fff;
-  margin: 0;
+  margin: 35px 12px;
   text-decoration: none;
 }
 
@@ -12,14 +12,19 @@
   width: 18px;
   height: 2px;
   background-color: #fff;
-  margin: 4px 0;
+  margin: 4px 24px;
   list-style-type: none;
+  margin-right: 40px;
+}
+
+.bar1 {
+  margin-top: 20px;
 }
 
 .head {
   display: flex;
   background-color: #3c3a39;
-  height: 92px;
+  height: 70px;
   justify-content: space-between;
 }
 
@@ -92,9 +97,6 @@
 body {
   background: #1c1a19;
   height: 100vh;
-  /*background-image: url();
-  background-repeat: no-repeat;
-  background-position: 88% 99%;*/
 }
 
 .background-image {
