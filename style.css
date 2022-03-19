@@ -1,0 +1,128 @@
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  margin: 35px 12px;
+  text-decoration: none;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 18px;
+  height: 2px;
+  background-color: #fff;
+  margin: 4px 24px;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+.bar1 {
+  margin-top: 20px;
+}
+
+.head {
+  display: flex;
+  background-color: #3c3a39;
+  height: 70px;
+  justify-content: space-between;
+}
+
+.primo-text {
+  width: 327px;
+  height: 124px;
+  left: 24px;
+  top: 120px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 120px 0 0 0;
+}
+
+.basic-info {
+  width: 327px;
+  height: 27px;
+  left: 24px;
+  top: 256px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+/*stylelint-disable*/
+.info {
+  width: 327px;
+  height: 50px;
+  left: 24px;
+  top: 295px;
+  font-family:'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFF;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 12px 0 0 0;
+}
+
+.icons {
+  display: flex;
+  justify-content:left;
+  justify-items:space-between;
+  padding: 100px 0;
+  margin: 0 12px 24px 0;
+  background: #1C1a19;
+  background: transparent;
+  list-style-type: none;
+  top: 0%;
+}
+
+body {
+  background: #1c1a19;
+  height: 100vh;
+}
+
+.background-image {
+  display: flex;
+  background-image: url(Microverse-Student-Project-1/illustration-header-mobile.png);
+  background-repeat: no-repeat;
+  background-position: 100% 80%;
+
+}
+
+.github {
+  margin: 0 12px;
+}
+
+.linkedin {
+  margin: 0 12px;
+}
+
+.angelist {
+  margin: 0 12px;
+}
+
+.medium {
+  margin: 0 12px;
+}
+
+.twitter {
+  margin: 0 12px;
+}
