@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@200&display=swap');
+
+.top_nav {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #3C3A39;
+  color: #fff;
+  padding: 20px 30px
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+    font-family:Roboto;
+    color: #fff;
+    text-decoration: none;
+    margin: 7px 0 0 0;
+    padding: 0;
+}
+
+.intro {
+    background: #1C1A19;
+    padding:24px;
+    height:auto;
+    margin: auto;
+}
+
+.primo-text {
+    color: #FF6B00;
+    font-size:56px;
+    font-family: Crete Round;
+    font-weight: 400;
+    font-style:normal;
+    width: 327px;
+height: 124px;
+left: 24px;
+top: 120px;
+}
+
+.basic-info {
+    color:#FFF5E1;
+    font-family:'Roboto';
+}
+
+.info {
+    color: #fff;
+    font-size: 16px;
+    font-family:'Roboto';
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.icons {
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.icons img {
+    color: #fff;
+    margin: 5px;
+    list-style: none;
+}
+
+.github {
+    margin-left: 1px;
+}
+
+.recent_work {
+    background: #fff;
+    padding:24px;
+    height:auto;
+}
+
+.recent_work_title {
+    color: #111;
+    font-family: 'Crete Round';
+    font-size:40px;
+    line-height:52px;
+    font-weight:400;
+    text-align:center;
+    margin-top:50px;
+    margin-bottom:25px;
+}
+
+.project {
+    margin-top:50px;
+}
+
+.project_image img {
+    width: 100%;
+}
+
+.project_title {
+    color: #091E42;
+    font-family: 'Crete Round';
+    font-size:32px;
+    line-height:44px;
+    font-weight:400;
+    margin: 20px 0px;
+}
+
+.project_desc {
+    color: #091E42;
+    font-family: 'Crete Round';
+    font-size:16px;
+    font-style: normal;
+    font-weight:100;
+    line-height:24px;
+}
+
+.project_tech {
+    display:flex;
+    flex-direction:row;
+}
+
+.tech {
+    padding: 10px 12px;
+    border: 1px solid #8993A4;
+    margin-right: 12px;
+    font-family: Inter;
+    font-size:15px;
+    font-weight: Medium;
+
+}
+
+.project_btn {
+    margin-top: 30px;
+}
+
+.project_btn a {
+    background: #FF6B00;
+    color: #fff;
+    padding:12px;
+    text-decoration: none;
+    font-family: Inter;
+    font-size:17px;
+    line-height:24px;
+    font-weight: 700;
+    height: 88px;
+    margin-bottom: 23px;
+}
+
+.m_project {
+    display: flex;
+    flex-direction:column;
+    margin-top: 50px;
+    background-image: url(images/other-background-placeholder.png);
+    background-repeat: no-repeat;
+}
+
+.m_project_content {
+    background-image: url('../images/project_bg.png');
+    background-size:cover;
+    padding:30px 30px;
+}
+
+.m_project_title {
+    color: #fff;
+    font-family: Crete Round;
+    font-size:32px;
+    line-height:44px;
+    font-weight:400;
+    margin: 20px 0px;
+}
+
+.m_project_desc {
+    color: #fff;
+    font-family: Inter;
+    font-style: normal;
+    font-size:16px;
+    font-weight:300;
+    line-height:24px;
+}
+
+.m_project_tech {
+    display:flex;
+    flex-direction:row;
+}
+
+.m_tech {
+    padding: 10px 12px;
+    background: rgba(255, 255, 255, 0.24);
+    color:#fff;
+    margin-right: 12px;
+    font-family: Inter;
+    font-size:15px;
+    font-weight: Medium;
+}
+
+.m_project_btn {
+    background: #FF6B00;
+    color: #fff;
+    padding:12px;
+    text-decoration: none;
+    font-family: Inter;
+    font-size:17px;
+    line-height:24px;
+    font-weight: 700;
+    text-align:center;
+}
+
+.about_me {
+    background: #1C1A19;
+    padding:24px;
+    height:auto;
+}
+
+.contact_me {
+    background: #fff;
+    padding:24px;
+    height:auto;
+}
+
+.helo_title {
+    color: #FF6B00;
+    font-size:56px;
+    font-family: Crete Round;
+    font-weight: 76px;
+    font-style:normal;
+    width: 327px;
+height: 124px;
+left: 24px;
+top: 120px;
+}
+
+.helo_desc {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #F4F5F7;
+}
+
+.top_nav,
+.intro,
+.background-image,
+.about_me {
+    background-image: url(images/Illustration.png);
+    background-repeat: no-repeat;
+    background-position: 99% 99%;
+}
+
+.last-section {
+    background: #1C1A19;
+    color: #fff;
+    font-family: 'Inter';
+}
+
+.last-section li {
+    list-style: none;
+    font-weight: 400;
+    width: 370px;
+}
